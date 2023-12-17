@@ -8,7 +8,7 @@ public class Conexao {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			con = DriverManager.getConnection("jdbc:mysql://localhost/dbloja", "root", "");
-			System.out.println("ook");
+			
 			
 		}catch(ClassNotFoundException ex){
 	        System.out.println("Driver JDBC-ODBC n�o encontrado"); 

@@ -38,6 +38,8 @@ public class FrmPrincipal extends JFrame {
         add(lbImg);
         add(lbLoja);
         setVisible(true);
+
+        
     } 
 
 
