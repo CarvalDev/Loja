@@ -10,5 +10,6 @@ public class App {
         new FrmPrincipal();
         Conexao con = new Conexao();
         con.conectar();
+        System.out.println("helo world");
     }
 }
